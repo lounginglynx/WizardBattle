@@ -1,6 +1,15 @@
 
 def main():
-    print("My first PyCharm Git config? How about now?")
+    header()
+    gameLoop()
+
+def header():
+    print('---------------------------------------------')
+    print('           Wizard Wars')
+    print('---------------------------------------------')
+
+def gameLoop():
+    pass
 
 
 
