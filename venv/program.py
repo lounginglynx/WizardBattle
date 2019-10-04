@@ -18,12 +18,13 @@ def intro():
 
 def gameLoop():
     creatures = [
-        Creature(),
-        Creature(),
-        Creature()
+        Creature('toad', 1),
+        Creature('Griffin',50),
+        Creature('Yeti',25),
+        Creature('Voldemort',1000)
     ]
-    hero = Wizard()
-
+    hero = Wizard('Harry', 75)
+    print(creatures)
 
     while True:
         cmd = input("Do you [a]ttack, [r]un away, or [l]ook around?")
