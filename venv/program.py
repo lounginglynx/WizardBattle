@@ -1,4 +1,4 @@
-from actors import Wizard, Creature
+from actors import Wizard, Creature, MythicalBeast, Dragon
 import random
 import time
 
@@ -21,9 +21,10 @@ def intro():
 def gameLoop():
     creatures = [
         Creature('toad', 1),
-        Creature('Griffin',50),
-        Creature('Yeti',25),
-        Creature('Voldemort',1000)
+        MythicalBeast('Griffin',50),
+        MythicalBeast('Yeti',25),
+        Dragon('Green Dragon',20,50, 100),
+        Wizard('Voldemort',1000)
     ]
     hero = Wizard('Harry', 75)
     #print(creatures)
